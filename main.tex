@@ -1,0 +1,133 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[pdftex]{hyperref}
+\begin{document}
+
+	\title{Relatório: Backlog}
+	\author{Leonardo Soares Santos}
+	\date{\today}
+	
+	\maketitle	
+	\section{Corpora}
+    	\subsection{Em Português}
+        	\subsubsection{Floresta Sintática}
+            
+            	\paragraph{Artigo: “Floresta Sintática”: A treebank for Portuguese.} Chamamos de "Floresta Sintáctica" um conjunto de frases (corpus) analisadas (morfo)sintaticamente. Como, além da indicação das funções sintácticas, a análise também explicita hierarquicamente informação relativa à estrutura de constituintes, dizemos que uma frase sintaticamente analisada se parece com uma árvore, donde um conjunto de árvores constitui uma floresta sintáctica (em inglês, treebank).
+            	\paragraph{} O projecto Floresta Sintá(c)tica é uma colaboração entre a Linguateca e o projecto VISL. Contém textos em português (do Brasil e de Portugal) anotados (analisados) automaticamente pelo analisador sintáctico PALAVRAS (Bick 2000) e revistos por linguistas.
+            	\paragraph{} Atualmente, a Floresta Sintá(c)tica tem quatro partes, que diferem quanto ao gênero textual, quanto ao modo (escrito vs falado) e quanto ao grau de revisão linguística: 
+            \begin{itemize}
+				\item Bosque, totalmente revisto por linguistas;
+                \item Selva, parcialmente revista;
+                \item Floresta Virgem e a Amazônia, não revistos.
+			\end{itemize}
+             Junto, todo esse material soma cerca de 261 mil frases (6,7 milhões de palavras) sintaticamente analisadas
+             Disponível em:
+             \begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+				\item Biblioteca NLTK
+			\end{itemize}
+
+            \subsubsection{AC/DC}
+            	\paragraph{O projeto AC/DC }(Acesso a corpos/Disponibilização de corpos), iniciado em 1999, surgiu da necessidade de juntar os poucos recursos disponíveis num único ponto na rede e dessa forma facilitar a comparação e a reutilização do material, permitindo ao mesmo tempo acesso a uma ferramenta poderosa de interrogação de corpos, o \href{http://cwb.sourceforge.net/}{Open CWB} (versão nova do IMS corpus workbench), para a qual desenvolvemos esta interface.
+				\paragraph{}Desde 2000, a anotação dos corpos tem sido feita automaticamente pelo \href{http://visl.sdu.dk/visl/pt/}{PALAVRAS} de Eckhard Bick, e convertida para o "formato AC/DC", descrito pormenorizadamente na página de \href{https://www.linguateca.pt/acesso/anotacao.html}{Anotação}.
+				Disponível em:
+				\begin{itemize}
+				    \item https://www.linguateca.pt/ACDC/
+
+			    \end{itemize}
+
+            \subsubsection{CTEMPúblico}
+            	\paragraph{} CETEMPúblico (Corpus de Extractos de Textos Electrónicos MCT/Público) é um corpus de aproximadamente 180 milhões de palavras em português europeu, criado pelo projecto \href{https://www.linguateca.pt/proc_comp_port.html}{Processamento computacional do português} (projecto que deu origem à Linguateca) após a assinatura de um protocolo entre o Ministério da Ciência e da Tecnologia (MCT) português e o jornal \href{https://www.publico.pt/}{PÚBLICO} em Abril de 2000.
+            	Disponível em:
+            	\begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+
+			    \end{itemize}
+            \subsubsection{CETENFolha}
+            	\paragraph{O CETENFolha (Corpus de Extractos de Textos Electrónicos NILC/Folha de S. Paulo)}é um corpus de cerca de 24 milhões de palavras em português brasileiro, criado pelo projecto \href{https://www.linguateca.pt/proc_comp_port.html}{Processamento computacional do português} (projecto que deu origem à Linguateca) com base nos textos do jornal \href{https://www.folha.uol.com.br/}{Folha de S. Paulo} que fazem parte do corpus NILC/São Carlos, compilado pelo \href{http://www.nilc.icmsc.sc.usp.br/}{Núcleo Interinstitucional de Lingüística Computacional} (NILC).
+                Disponível em:
+            	\begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+
+			    \end{itemize}
+            \subsubsection{CHAVE}
+            	\paragraph{A colecção CHAVE} é o resultado da participação da Linguateca na organização do CLEF a partir de 2004, que além de potenciar a participação da comunidade envolvida no processamento da língua portuguesa nesta avaliação conjunta internacional, pretende fomentar e disseminar recursos públicos. Veja a página do \href{https://www.linguateca.pt/CLEF/}{CLEF} mantida pela Linguateca
+            	Disponível em:
+            	\begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+
+			    \end{itemize}
+            \subsubsection{PAPEL}
+            	\paragraph{O PAPEL} é um recurso criado pela Linguateca a partir do Dicionário PRO de Língua Portuguesa da \href{http://www.portoeditora.pt/}{Porto Editora} através de um protocolo de colaboração com o departamento de dicionários desta empresa.
+				\paragraph{} Contrário de outras ontologias lexicais para o português de que temos conhecimento, o PAPEL é público, grátis e utilizável por todos os actores de processamento da língua que o quiserem usar, e encontra-se aberto para subsequente melhoria pela comunidade.
+				\paragraph{} Desenvolvimento do PAPEL oficial terminou com o fim da terceira fase da Linguateca (31 de Dezembro de 2008). A publicação da sua primeira versão teve a data de 17 de Agosto de 2009, e desde aí temos tentado produzir novas versões através da melhoria e validação do seu conteúdo (veja-se o historial para mais informação).
+				Disponível em:
+            	\begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+
+			    \end{itemize}
+
+            \subsubsection{Lácio-Web}
+            	\paragraph{Lácio-Web (LW)} é um projeto de 30 meses de duração financiado pelo CNPq, iniciado em janeiro de 2002, com parceria entre NILC (Núcleo Interinstitucional de Lingüística Computacional), localizado no ICMC-USP, IME (Instituto de Matemática e Estatística) e FFLCH (Faculdade de Filosofia, Letras e Ciências Humanas).
+                \paragraph{}O objetivo deste projeto é divulgar e disponibilizar livremente na Web: a) vários córpus do português brasileiro escrito contemporâneo, representando bancos de textos adequadamente compilados, catalogados e codificados em um padrão que possibilite fácil intercâmbio, navegação e análise; e b) ferramentas lingüístico-computacionais, tais como contadores de freqüência, concordanciadores e etiquetadores morfossintáticos. O público-alvo do LW é heterogêneo: de um lado lingüistas, cientistas da computação, lexicógrafos, e etc. e, de outro, não especialistas em geral.
+                \paragraph{}O LW comporta 6 corpora:
+                \begin{itemize}
+                	\item Uma referência para o corpus chamado Lacio-Ref;
+                    \item Mac-Morpho, uma porção do Lácio-Ref em padrão ouro, composta 1,1 milhão de palavras, no qual foi manualmente validado por tags morfo-sintáticas;
+                    \item Uma porção do Lacio-Ref automaticamente anotado com lemas, POS e tags sintáticas no qual foi utilizado o parser Curupira desenvolvido no Nilc; 
+                    \item Um corpus composto de textos não revisados (Lacio-Dev);
+                    \item Par-C e Comp-C são textos Potuguês-Inglês.
+                \end{itemize}
+                Disponível em:
+            	\begin{itemize}
+				\item https://www.linguateca.pt/floresta/principal.html
+
+			    \end{itemize}
+
+        \subsection{Outros Idiomas}
+        	\subsubsection{MASC}
+            	\paragraph{O Manually Annotated Sub-Corpus (MASC)}consiste em aproximadamente 500 mil palavras do inglês americano contemporâneo escritas ou faladas, esse sub-corpus foi gerado a partir do OANC(Open American National Corpus)
+                \paragraph{}Tudo do MASC inclui anotações manualmente validadas para cada sentença. token, lemma and POS; substantivo e verbos; entidades nomeadas(pessoa, localização, organização, data); Sintaxe do projeto Penn Treebank; co-referência; e estrutura discursiva.
+                
+                Disponível em:
+                \begin{itemize}
+                    \item http://www.anc.org/data/masc/
+                \end{itemize}
+            \subsubsection{ANC-Second Release}
+            	\paragraph{a segunda versão do ANC(American National Corpus),}contém por volta de 22 milhões de palavras do inglês americano escrito e falado, anotado por lema, PoS. PoS tags usando Penn tagset são utilizados para todos os dados da segunda versão, e muitos documentos são também Pos-tagged usando o Biber tagset.
+            \subsubsection{OANC}
+            	\paragraph{O OANC(Open American National Corpus)}tem por volta de 15 milhões de palavras advindos da segunda versão do ANC, que são irrestritos em termos de uso e redistribuição. Desde 2006, o projeto ANC tem se comprometido em produzir somente dados abertos. Assim sendo, o OANC e MASC são os únicos recursos que o ANC continuará desenvolvendo.
+            \subsubsection{BNC}
+            	\paragraph{O BNC(British National Corpus)}é uma coleção de 100 milhões de palavras de trechos da lingua inglesa escritos e falados de uma grande quantidade de fontes, desenvolvido para representar uma grande parte do inglês britânico da última parte do século 20, tanto falado como escrito. A última edição é \textit{BNC XML EDITION}, lançada em 2007.
+                \paragraph{}A parte escrita do BNC (90\%) inclui, por exemplo, trechos de jornais regionais e nacionais, periódicos e revistas especializadas para todas as idades e interesses, livros acadêmicos e ficção popular, cartas e memorandos publicados e não publicados, dissertações escolares e universitárias, entre outros tipos de texto. A parte falada (10\%) consiste em transcrições ortográficas de conversas informais não roteirizadas (gravada por voluntários selecionados de diferentes idades, regiões e classes sociais de uma forma balanceada demográficamente) e língua falada em diferentes contextos, variando de encontros de negócios formais até reuniões governamentais para programas de rádio e telefonemas.
+           \subsubsection{The Penn Treebank} 
+           		\paragraph{O projeto Penn TreeBank,} produziu aproximadamente 7 milhões de palavras classificadas com PoS taggers, 3 milhões de palavras esqueleticamente analisadas, por volta de 2 milhões de palavras de texto analisados por estruturas de argumento e predicado, e 1,6 milhão de palavras transcritas de texto falado anotado por \textit{speech disfluencies}. 
+                \paragraph{}Uma atualização do corpus ocorreu em 1999, adicionando texto comutado, dysfluency-annotated e analisado; Texto analisado do corpus Brown.
+    \section{Taggers}
+    	\subsection{Em Português}
+        	\subsubsection{PALAVRAS}
+            	\paragraph{O PALAVRAS é um analisador automático} (tagger-parser) para português que foi desenvolvido por Eckhard Bick no contexto dum projeto de doutoramento (1994-2000) na Universidade de Århus (Dinamarca). O sistema apoia-se num léxico de 50.000 lemas e milhares de regras gramaticais para fornecer uma análise completa, tanto morfológica como sintática, de qualquer texto. O formalismo aplicado integra-se na tradição da Constraint Grammar (CG), introduzido por Fred Karlsson (Universidade de Helsínquia, Finlândia) em 1992. Embora usando um conjunto de etiquetas gramaticais bastante diversificado, o parser alcança um nível de correção de 99\% em termos de morfologia (classe de palavras e flexão), e 97-98\% em termos de sintaxe.
+
+        \subsection{Outros Idiomas}
+        	\subsubsection{MAT - Multidimensional Analysis Tagger}
+            	\paragraph{O MAT (Multidimensional Analysis Tagger} é um programa para Windows que replica Biber's tagger para análise multidimencional funcional de texto em inglês, geralmente aplicado para estudos de variados tipos e gêneros de textos. O programa gera uma versão gramaticalmente anotada do corpus ou texto selecionado como também as estatísticas necessárias para realizar uma análise de tipo ou gênero de texto. O programa plota a entrada de texto ou corpus no Biber's Dimensions e determina o quão próximo é o tipo de texto, como proposto por Biber. Finalmente, o programa oferece uma ferramenta para visualização das Dimensões de um certo texto.
+                \paragraph{}Essa é um implementação do tagger usado por Biber e outros trabalhos. Esse tagger tenta replicar a analise do Biber o mais próximo possível levando em conta o algoritmo que o autor apresenta no apêndice do livro. A análise básica é feita através do Stanford Tagger. Este tagger inclui uma cópia do Stanford Tagger na qual é rodado automaticamente para produzir um análise gramatical preliminar. MAT então expande a tag do Stanford Tagger usando o identificador linguistico usados no Biber Tagger. 
+            \subsubsection{Stanford Log-linear Part-Of-Speech Tagger}
+            	\paragraph{O Stanford Log-Linear Part-Of-Speech Tagger} segue as seguintes idéias:
+                \begin{itemize}
+                	\item explicitar o uso de tanto de contexto anterior e posterior da tag por meio de uma representação de uma rede de dependência;
+                    \item amplo uso de recursos lexicais, incluindo o condicionamento conjunto de várias palavras consecutivas;
+                    \item uso efetivo de prioridades em modelos log-lineares ,e
+                    \item uma modelagem refinada de recursos de palavras desconhecidas.
+                \end{itemize}
+            	Usando essas ideias juntas, o resultado que tagger conseguiu uma precisão de 97,24\% no Penn treebank WSJ, uma redução de erro de 4,4\% do melhor resultado já conseguido por tagger de aprendizagem automática sozinho.
+        	
+	\section{Técnicas}
+    	\subsection{Bidirectional Dependency Network}
+        	\paragraph{Esta técnica é utilizada no O Stanford Log-Linear Part-Of-Speech Tagger}, fazendo um resumo, é desenhado uma rede dependencia no qual cada nó tem como vizinhos todos os outros que tenham influência sobre ele diretamente. A vizinhança de cada nó é considerada isoladamente e um modelo local é treinado para maximizar dados treinados a máxima verossimilhança daquele nó. No momento do teste, a sequência com o maior score do produto condicional local é calculado e retornado. Sempre é possível achar a sequência de maximização exata, mas apenas em caso de uma rede aciciclica é garantida ser a sequência de máxima verossimilhança.
+			
+
+
+\end{document}
